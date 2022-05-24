@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-image: url(images/endless-constellation.svg);
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.nav-section {
+  height: 40vh;
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+.nav-section nav {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+.nav-section nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav-section nav li {
+  padding: 1rem;
+}
+.nav-section nav li:hover {
+  transform: scale(1.1);
+  color: white;
+  transition: 0.3s ease-in;
+}
+.nav-section nav a {
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.main {
+  height: 60vh;
+  color: rgb(221, 221, 221);
+}
+.main .contact {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+.main .contact .contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem auto;
+  gap: 2rem;
+}
+.main .contact .contact-info h2 {
+  margin: 0.9rem 0;
+}
+.main .contact .contact-info span {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0 0.2rem;
+}
+.main .contact .contact-info i {
+  font-size: 2rem;
+}
+.main .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main .social .social-info {
+  justify-content: center;
+  display: flex;
+  padding: 2rem 1rem;
+  font-size: 3rem;
+  gap: 1rem;
+  color: rgb(221, 221, 221);
+}
+.main .social .social-info .icon {
+  opacity: 0.7;
+}
+.main .social .social-info .icon:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: 0.8s ease-in;
+}
+.main .social .copyRight {
+  text-align: center;
+  align-self: center;
+  width: 10rem;
+}
+
+/*# sourceMappingURL=contactMe.css.map */
