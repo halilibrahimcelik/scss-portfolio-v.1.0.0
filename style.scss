@@ -1,3 +1,4 @@
+@import "mobile";
 *{
 
     box-sizing: border-box;
@@ -26,7 +27,7 @@ body{
     height: 50vh;
     border-bottom: 2px solid $primary-color;
     display: grid;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 1fr 1fr;
     
 
     nav{

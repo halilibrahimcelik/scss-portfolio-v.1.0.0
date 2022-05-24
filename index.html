@@ -16,18 +16,24 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
     <div class="container">
       <section class="nav-section">
-        <nav>
-          <ul class="navBar">
-            <li class="list"><a href="/index.html"> HOME</a></li>
-            <li class="list"><a href="/aboutMe.html"> ABOUT ME</a></li>
-            <li class="list"><a href="/myProject.html"> MY PROJECTS</a></li>
-            <li class="list"><a href="/contact.html"> CONTACT</a></li>
-          </ul>
-        </nav>
+        <div class="collapsible">
+          <nav class="navBar collapsible--expanded">
+            <div class="button">
+              <i class="fa fa-bars l"></i>
+            </div>
+            <ul class="collapsible__content">
+              <li class="list"><a href="/index.html"> HOME</a></li>
+              <li class="list"><a href="/aboutMe.html"> ABOUT ME</a></li>
+              <li class="list"><a href="/myProject.html"> MY PROJECTS</a></li>
+              <li class="list"><a href="/contact.html"> CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
         <div class="header">
           <h4>Hi! My Name is</h4>
           <h1>Halil <span style="color: red"> Celik</span></h1>
