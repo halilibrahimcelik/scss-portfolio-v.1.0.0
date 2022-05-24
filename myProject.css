@@ -16,8 +16,8 @@
   nav ul li {
     display: block;
     border-top: 1px solid #ccc;
-    font-size: 1rem;
     text-align: left;
+    font-size: 1rem;
   }
 
   .collapsible .collapsible__content {
@@ -30,7 +30,7 @@
   }
 
   .nav-section {
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
   }
 }
 @media screen and (min-width: 701px) {
@@ -50,6 +50,7 @@ html {
 body {
   font-family: "Roboto Slab", serif;
   background-image: url(images/endless-constellation.svg);
+  height: 100vh;
 }
 
 .container {
@@ -60,10 +61,9 @@ body {
 }
 
 .nav-section {
-  height: 30vh;
+  height: 40vh;
   display: grid;
-  grid-template-rows: 30% 70%;
-  overflow: hidden;
+  grid-template-rows: 70% 30%;
 }
 .nav-section nav {
   display: flex;
@@ -104,7 +104,6 @@ article {
 
 .footer {
   display: grid;
-  height: max-content;
   grid-template-columns: 10% 80% 10%;
   color: rgb(221, 221, 221);
 }

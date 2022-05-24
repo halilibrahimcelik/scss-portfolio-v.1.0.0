@@ -3,6 +3,7 @@
 *{
 
     box-sizing: border-box;
+overflow: auto;
 
     margin:0;
 }
@@ -82,7 +83,7 @@ body{
 }
 article{
     background-color: $secondary-color;
-
+   
     
 }
 .footer{
