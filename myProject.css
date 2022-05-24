@@ -103,7 +103,9 @@ article {
 }
 
 .footer {
+  overflow: auto;
   display: grid;
+  height: 60vh;
   grid-template-columns: 10% 80% 10%;
   color: rgb(221, 221, 221);
 }
