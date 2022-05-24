@@ -2,15 +2,17 @@
 
     box-sizing: border-box;
     overflow: hidden;
+    margin:0;
 }
 html{
     font-size: 62.5%;
 }
 
 $primary-color:rgb(221, 221, 221);
+$secondary-color:rgb(57, 56, 56);
 body{
-    background-image: url(images/endless-constellation.svg);
     font-family:  'Roboto Slab', serif;;
+    background-image: url(images/endless-constellation.svg);
 }
 
 
@@ -23,8 +25,8 @@ body{
 }
 
 .nav-section{
-    height: 50vh;
-    border-bottom: 2px solid $primary-color;
+    height: 40vh;
+ 
     display: grid;
     grid-template-rows: 20% 80%;
     
@@ -59,34 +61,44 @@ body{
     .header{
         text-align: center;
         align-self:flex-end;
+      
         
        
-       h1{
-           font-size:5rem;
-           margin:0;
+       p{
+        margin:1rem auto;
+        font-size: 1.5rem;
         }
         h4{
-          margin:1rem auto;
-           
-           font-size: 2rem;
+            margin:1rem auto;
+            color:rgb(141, 24, 24);
+           font-size:5rem;
        }
     }
 }
+article{
+    background-color: $secondary-color;
+
+    
+}
 .footer{
     display: grid;
-    height: 50vh;
-    grid-template-rows: 20% 80%;
+    height: 60vh;
+    grid-template-columns: 10% 80% 10%;
+    color:$primary-color;
+
 
 
     h2{
-        text-align: center;
+      
         color:$primary-color;
         font-size: 2rem;
     }
 
     .social-info{
         align-self: flex-end;
+        justify-self: left;
         display: flex;
+        flex-direction: column;
         padding:2rem 1rem;
         font-size: 3rem;
         gap:1rem;
@@ -100,5 +112,30 @@ body{
             
           }
       }
+    }
+
+    .resume{
+        display:grid;
+        grid-template-rows: repeat(3,1fr);
+   
+        .resume-1{
+            background-color: lighten($secondary-color, 20%);
+            border-bottom: 3px solid coral;
+            border-radius: 5px;
+          align-self: center;
+          p{
+              font-size: 1.2rem;
+          }
+          h4{
+              font-size: 1.5rem;
+          }
+        }
+    }
+    .copyRight{
+        align-self: flex-end;
+        justify-self: right;
+        transform:rotate(90deg);
+        margin-bottom: 5rem;
+        font-size: 1.2rem;
     }
 }
