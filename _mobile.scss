@@ -44,7 +44,11 @@
     }
 
     .nav-section{
-        grid-template-rows: 2fr 1fr;
+       .header{
+           p{
+               font-size: 0.1rem;
+           }
+       }
         
     }
  

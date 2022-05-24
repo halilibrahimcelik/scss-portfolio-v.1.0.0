@@ -29,8 +29,8 @@
     max-height: 100vh;
   }
 
-  .nav-section {
-    grid-template-rows: 2fr 1fr;
+  .nav-section .header p {
+    font-size: 0.1rem;
   }
 }
 @media screen and (min-width: 701px) {
@@ -51,6 +51,7 @@ html {
 body {
   font-family: "Roboto Slab", serif;
   background-image: url(images/endless-constellation.svg);
+  height: 100vh;
 }
 
 .container {
@@ -62,7 +63,7 @@ body {
 .nav-section {
   height: 50vh;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto;
 }
 .nav-section nav {
   display: flex;
@@ -95,7 +96,7 @@ body {
 }
 .nav-section .header p {
   margin: 1rem auto;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .nav-section .header h4 {
   margin: 1rem auto;
@@ -109,7 +110,7 @@ article {
 
 .footer {
   display: grid;
-  height: 60vh;
+  height: 50vh;
   grid-template-columns: 10% 80% 10%;
   color: rgb(221, 221, 221);
 }

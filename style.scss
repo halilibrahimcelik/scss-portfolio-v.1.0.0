@@ -11,7 +11,8 @@ html{
 $primary-color:rgb(221, 221, 221);
 body{
     background-image: url(images/endless-constellation.svg);
-    font-family:  'Roboto Slab', serif;;
+    font-family:  'Roboto Slab', serif;
+    height: 100vh;
 }
 
 
@@ -24,10 +25,10 @@ body{
 }
 
 .nav-section{
-    height: 50vh;
+    height: 56vh;
     border-bottom: 2px solid $primary-color;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 70% 30%;
     
 
     nav{
@@ -75,7 +76,7 @@ body{
 }
 .footer{
     display: grid;
-    height: 50vh;
+    height: 44vh;
     grid-template-rows: 20% 80%;
 
 
