@@ -61,9 +61,8 @@ body {
 }
 
 .nav-section {
-  height: 50vh;
+  height: 40rem;
   display: grid;
-  grid-template-rows: auto auto;
 }
 .nav-section nav {
   display: flex;
@@ -110,7 +109,7 @@ article {
 
 .footer {
   display: grid;
-  height: 50vh;
+  height: 60rem;
   grid-template-columns: 10% 80% 10%;
   color: rgb(221, 221, 221);
 }

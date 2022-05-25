@@ -44,12 +44,13 @@ body{
             display: flex;
             list-style: none;
             text-align: center;
+
          
         }
         li{
-            padding:1rem;
+            padding:2rem;
             &:hover{
-                transform: scale(1.07);
+                transform: scale(1.1);
                 color:lighten($primary-color, 80%);
                 transition: 0.3s ease-in;
             }   

@@ -29,10 +29,10 @@ body{
 }
 
 .nav-section{
-   height: 50vh;
+   height:40rem;
  
     display: grid;
-    grid-template-rows:auto auto;
+    // grid-template-rows:auto auto;
     
 
     nav{
@@ -89,7 +89,7 @@ article{
 }
 .footer{
     display: grid;
-    height: 50vh;
+    height: 60rem;
     grid-template-columns: 10% 80% 10%;
     color:$primary-color;
 
